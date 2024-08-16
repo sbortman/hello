@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: hello
+  config-client:
+    enabled: true
+kubernetes:
+  client:
+    discovery:
+      mode: endpoint
+      mode-configuration:
+        endpoint:
+          watch:
+            enabled: true

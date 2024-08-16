@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.maxar.k8s
+testFramework: spock
+sourceLanguage: groovy
+buildTool: gradle
+features: [app-name, config-kubernetes, discovery-kubernetes, gradle, groovy, groovy-application, http-client-test, jib, kubernetes, logback, management, micronaut-aot, micronaut-build, micronaut-http-validation, netty-server, readme, serialization-jackson, shade, spock, static-resources, yaml, yaml-build]
